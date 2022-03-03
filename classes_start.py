@@ -12,7 +12,7 @@ class myClass():
 def main():
   c = myClass()
   c.method1()
-  c.method2("this is some Sting")
+  c.method2("This is some Sting")
 
 
 if __name__ == "__main__":
