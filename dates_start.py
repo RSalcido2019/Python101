@@ -16,7 +16,7 @@ def main():
   print("Date components: ", today.day, today.month, today.year)
   
   # retrieve today's weekday (0=Monday, 6=Sunday)
-
+  print("Today's week day number is ", today.weekday())
   
   ## DATETIME OBJECTS
   # Get today's date from the datetime class
