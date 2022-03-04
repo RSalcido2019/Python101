@@ -17,7 +17,9 @@ def main():
   
   # retrieve today's weekday (0=Monday, 6=Sunday)
   print("Today's week day number is ", today.weekday())
-  
+  days = ["mon", "Tues", "Wed"]
+  print("Today's is a", days[today.weekday()])
+
   ## DATETIME OBJECTS
   # Get today's date from the datetime class
 
