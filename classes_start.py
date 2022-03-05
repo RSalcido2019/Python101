@@ -9,6 +9,9 @@ class myClass():
   def method2(self, someString):
     print("myClass method2 " + someString)
 
+  def method3(self, someString):
+    print("myClass method3 " + someString)
+
 class anotherClass(myClass):
 
   def method1(self):
@@ -21,6 +24,7 @@ def main():
   c = myClass()
   c.method1()
   c.method2("This is some Sting")
+  c.method3("This is a test of the third method")
 
   c2 = anotherClass()
   c2.method1()
