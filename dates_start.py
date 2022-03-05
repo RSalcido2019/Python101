@@ -3,7 +3,7 @@
 #
 from datetime import date
 from datetime import time
-from datetime import  datetime
+from datetime import datetime
 
 
 def main():
@@ -16,9 +16,9 @@ def main():
   print("Date components: ", today.day, today.month, today.year)
   
   # retrieve today's weekday (0=Monday, 6=Sunday)
-  print("Today's week day number is ", today.weekday())
-  days = ["mon", "Tues", "Wed"]
-  print("Today's is a", days[today.weekday()])
+  print ("Today's week day number is ", today.weekday())
+  days = ["mon", "Tues", "Wed", "thur","Friday","Saturday", "Sunday"]
+  print("Which is a: ", days[today.weekday()])
 
   ## DATETIME OBJECTS
   # Get today's date from the datetime class
